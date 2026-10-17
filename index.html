@@ -1,0 +1,522 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="ICLR 2027 全量投稿离线检索，17个领域、171个子领域介绍与索引。"><title>ICLR 2027 全量论文检索</title><style>:root{--navy:#142e48;--blue:#1d527d;--muted:#657486;--line:#dce5ed;--bg:#eef2f5;--soft:#f3f7fa;--ink:#182c40}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.7 "Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif}button,input,select{font:inherit}button,a,input,select,summary{-webkit-tap-highlight-color:transparent}button{cursor:pointer}button:disabled{opacity:.45;cursor:default}a{color:#1d5a91;text-underline-offset:3px}a:hover{color:#a35723}button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #64a3d0;outline-offset:2px}input[type=search],select{border:1px solid #bdcdd9;border-radius:5px;padding:9px 11px;background:white;color:var(--ink);max-width:100%}input[type=search]{width:100%}button{border:1px solid #bfceda;border-radius:5px;padding:7px 12px;background:white;color:#234d70}button:hover:not(:disabled){background:#edf4fa;border-color:#6894b5}.topbar{position:sticky;top:0;z-index:15;background:var(--navy);color:white;padding:13px max(22px,calc((100vw - 1580px)/2));display:flex;align-items:center;gap:20px;justify-content:space-between;box-shadow:0 2px 8px #142e481f}.brand{font-size:20px;font-weight:700;letter-spacing:.4px}.brand small{font-size:12px;font-weight:400;color:#bdd2e4;display:block}.top-actions{display:flex;gap:10px;align-items:center}.topbar a{color:#d4e7f5;font-size:13px}.topbar button{background:#244965;color:white;border-color:#50718b}#menu{display:none}.shell{max-width:1580px;margin:24px auto;padding:0 22px;display:grid;grid-template-columns:285px minmax(0,1fr);gap:25px}.sidebar{position:sticky;top:101px;align-self:start;height:calc(100vh - 122px);overflow:auto;background:white;border:1px solid var(--line);border-radius:8px;padding:17px 13px}.side-heading{display:flex;justify-content:space-between;align-items:center;font-size:16px;margin-bottom:10px;font-weight:700}.sidebar input{margin-bottom:10px}.side-nav-button{display:flex;justify-content:space-between;align-items:center;text-align:left;width:100%;border:0;background:white;padding:9px 10px;border-radius:4px}.side-nav-button.active{background:#e6f0f7;color:#143d60;font-weight:700}.side-nav-button span{font-size:12px;color:#678197}.cat-group{border-top:1px solid #e5ebf0}.cat-group>summary{display:flex;gap:6px;justify-content:space-between;cursor:pointer;list-style:none;padding:11px 7px;font-size:13px;font-weight:600}.cat-group>summary:before{content:'›';color:#7190a9;font-size:18px;line-height:1.2}.cat-group[open]>summary:before{transform:rotate(90deg)}.cat-group>summary span{flex:1}.cat-group>summary b{font-size:12px;font-weight:400;color:#778a9b}.group-entry{background:#f4f7fa;border:0;font-size:12px;width:100%;text-align:left;padding:7px 10px}.sub-row{display:flex;align-items:center;border-bottom:1px solid #f0f3f6}.sub-entry{text-align:left;flex:1;border:0;border-radius:0;padding:8px 6px 8px 12px;font-size:12px;background:white;display:flex;justify-content:space-between;gap:9px;line-height:1.6}.sub-entry span{color:#8190a0;font-size:11px;align-self:center}.sub-entry.active{background:#e8f2f9;color:#173f63}.combine{padding:8px 6px;cursor:pointer}.combine input{margin:0;accent-color:#1d527d}.side-note{color:#7a8795;font-size:11px;margin:12px 7px 2px}.main{min-width:0}.overview,.controls,.paper,.about,.resultbar{background:white;border:1px solid var(--line);border-radius:8px}.overview{padding:21px 26px;margin-bottom:15px}.overline{font-size:11px;letter-spacing:1.5px;color:#758c9e;text-transform:uppercase}h1{font-size:25px;line-height:1.45;margin:8px 0 9px}#view-description{margin:0;color:#51677a;max-width:1000px}.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}.chip{font-size:12px;background:#eaf3fa;border-color:#c3d7e6;padding:4px 9px}.chip span{margin-left:5px}.overview-details{margin-top:13px;border-top:1px solid var(--line);padding-top:10px}.overview-details>summary{cursor:pointer;color:#345d7d;font-size:13px}.sub-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;max-height:440px;overflow:auto;margin-top:12px;padding:2px}.description-card{text-align:left;border:1px solid #d8e3ec;background:#f8fafc;padding:13px 14px;border-radius:6px}.description-card strong{display:block;font-size:13px}.description-card small{float:right;color:#7990a3;font-weight:400}.description-card p{font-size:12px;color:#617586;margin:7px 0 0;line-height:1.8}.controls{padding:17px 20px;margin-bottom:13px}.search-row{display:flex;gap:9px}.search-row input{flex:1;min-width:100px}.primary-button{background:#1d527d;color:white;border-color:#1d527d}.filter-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:12px}.filter-row select{font-size:12px;padding:7px 9px;max-width:280px}.check-row{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin-top:12px;color:#5b7082;font-size:12px}.check-row label{display:flex;gap:5px;align-items:center;cursor:pointer}.check-row input{accent-color:#1d527d}.help{font-size:11px;color:#8896a3;margin-left:auto}.resultbar{padding:10px 16px;margin-bottom:12px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}#result-info{scroll-margin-top:95px;font-size:13px;color:#4c657a}.pagination{display:flex;gap:5px;align-items:center;flex-wrap:wrap}.pagination button{font-size:11px;padding:4px 8px}.pagination span{font-size:12px;color:#75889a;padding:0 5px}.paper{margin-bottom:11px;padding:17px 21px}.paper-title{display:flex;gap:15px;align-items:flex-start}.paper-title a{font:600 17px/1.55 Arial,"Microsoft YaHei",sans-serif;text-decoration:none;color:#1c4568}.paper-title a:hover{text-decoration:underline}.paper-title>div{flex:1}.paper-title-zh{font-size:13px;font-weight:500;line-height:1.6;color:#5d7284;margin-top:3px;overflow-wrap:anywhere}.paper-intro{font-size:12px;line-height:1.65;color:#4c657a;margin:7px 0 0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.paper-intro b{color:#315b7c;margin-right:7px}.paper-intro.pending{display:none}.save{border:0;font-size:22px;line-height:1;padding:0 3px;color:#9ba8b2;background:transparent}.save.selected{color:#bc842c}.paper-meta{display:flex;gap:12px;align-items:center;flex-wrap:wrap;font-size:11px;color:#7a8a98;margin-top:8px}.status{border:1px solid #d7e5db;background:#f1f8f2;color:#4e795a;padding:0 6px;border-radius:3px}.status.withdrawn{color:#997b40;border-color:#eadfc8;background:#faf7ee}.status.desk_rejected{color:#92645c;border-color:#ead6d2;background:#faf2f0}.paper-tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:9px}.paper-tags button{background:#f0f5f9;border:0;color:#54728b;padding:2px 7px;font-size:10px;border-radius:3px}.keywords{font-size:11px;color:#83909b;line-height:1.6;margin:8px 0;overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.paper-abstract>summary{font-size:12px;color:#2e648c;cursor:pointer;margin-top:10px;display:inline-block}.paper-abstract[open]>summary{margin-bottom:10px}.abstract-body{border-top:1px solid var(--line);padding-top:10px}.abstract-tabs{display:flex;gap:7px;font-size:12px;margin-bottom:9px}.abstract-tabs button{font-size:12px;padding:4px 10px;border-radius:16px}.abstract-tabs button.active{background:#1d527d;color:white;border-color:#1d527d}.translation-notice{font-size:11px;color:#8b6a36;margin:0 0 8px}.abstract-text{white-space:pre-wrap;overflow-wrap:anywhere;background:#f5f8fb;padding:16px;border-radius:5px;color:#40596d;font:14px/1.85 Arial,"Microsoft YaHei",sans-serif}.abstract-footer{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:10px;color:#91a0ad;margin-top:9px}.abstract-footer a{color:#6f8aa0}.about{padding:15px 20px;margin:22px 0;color:#728493;font-size:12px}.about>summary{cursor:pointer;color:#426b8c}.about p{margin:10px 0}.about code{overflow-wrap:anywhere;font-size:11px}.muted{color:#8795a2;font-size:12px}.empty{padding:50px;background:white;border:1px solid var(--line);text-align:center;border-radius:8px;color:#708396}.empty h3{color:#405d75}.bottom-pages{padding:16px;justify-content:center}.loading{max-width:800px;margin:70px auto;background:white;border:1px solid var(--line);padding:35px;border-radius:8px;text-align:center}.loading p{color:#7b8d9c}.spinner{display:inline-block;width:14px;height:14px;border:2px solid #d9e7f1;border-top-color:#1d527d;border-radius:50%;animation:spin .9s linear infinite;vertical-align:middle;margin-right:6px}@keyframes spin{to{transform:rotate(360deg)}}[hidden]{display:none!important}#shade,#close-menu{display:none}.error{margin:20px;background:#fff5eb;border:1px solid #ead6bb;padding:15px;color:#8a6438}.footer{font-size:11px;color:#8899a6;margin:10px 0 25px;text-align:center}
+@media(min-width:1650px){.topbar{padding-left:calc((100vw - 1536px)/2);padding-right:calc((100vw - 1536px)/2)}}
+@media(max-width:1000px){.shell{grid-template-columns:240px minmax(0,1fr);gap:15px;padding:0 15px}.sidebar{padding:13px 8px}.overview{padding:19px}.paper{padding:16px}.paper-title a{font-size:16px}.sub-grid{grid-template-columns:1fr}.top-actions a{display:none}.filter-row select{max-width:100%}}
+@media(max-width:760px){.topbar{padding:10px 14px;gap:10px}.brand{font-size:17px}.brand small{font-size:10px}.top-actions{gap:6px}.top-actions button{font-size:12px;padding:6px 9px}#menu{display:block}.shell{display:block;margin:13px auto;padding:0 11px}.sidebar{display:none}.menu-open .sidebar{display:block;position:fixed;z-index:40;left:0;top:0;height:100dvh;max-height:none;width:min(88vw,350px);border-radius:0;padding:18px 12px;box-shadow:4px 0 20px #142e4833}.menu-open #shade{display:block;position:fixed;inset:0;background:#142e4866;z-index:35}#close-menu{display:block;border:0;font-size:20px;padding:0 8px}.overview{padding:17px}h1{font-size:21px}.controls{padding:13px}.search-row{flex-wrap:wrap}.search-row input{width:100%;flex-basis:100%}.search-row button{font-size:12px}.filter-row{gap:6px}.filter-row select{max-width:100%;flex:1;min-width:140px}.check-row{gap:10px}.help{display:none}.paper{padding:15px}.paper-title a{font-size:16px}.paper-meta{gap:8px}.paper-tags button{font-size:10px}.paper-meta>span:last-child{flex-basis:100%}.resultbar{padding:10px 12px}.pagination span{font-size:11px}.pagination button{padding:4px 7px}.abstract-text{font-size:13px;padding:12px}.empty{padding:30px 20px}.about{padding:13px}}
+@media print{.topbar{position:static}.sidebar,.controls,.paper-tags button,.save,.pagination,#field-overview{display:none}.shell{display:block;margin:0;padding:0}.paper{break-inside:avoid}.paper-abstract:not([open]){display:none}.overview{border:0}.topbar{background:white;color:#142e48;box-shadow:none}.brand small{color:#777}}
+
+.translation-meter{font-size:11px;color:#6b8193;margin:9px 0 0}
+ .source-notice{padding:10px 13px;border-left:3px solid #b88336;background:#fff8e9;color:#755421;font-size:13px;line-height:1.8}
+</style></head><body>
+<header class="topbar"><div class="brand">ICLR 2027 论文地图<small>2026-10-07 存档 · 离线检索</small></div><div class="top-actions"><a id="about-link" href="#about">数据说明</a><button id="menu" type="button" aria-expanded="false">领域目录</button><span style="font-size:12px;color:#bdd2e4"><span id="total">43,013</span> 篇</span></div></header>
+<div id="loading" class="loading"><span class="spinner"></span>正在打开本地论文索引…<p>所有论文及摘要均保存在此 HTML 内，无需联网下载数据。</p></div><div id="boot-error" class="error" hidden></div>
+<div id="shade"></div><div id="application" class="shell" hidden>
+<aside class="sidebar" aria-label="领域与子领域目录"><div class="side-heading">领域与子领域<button id="close-menu" type="button" aria-label="关闭目录">×</button></div><input id="category-query" type="search" aria-label="搜索子领域" placeholder="搜索子领域名称 / 研究主题"><button id="all-fields" class="side-nav-button" type="button">全部领域 <span id="scope-total">42,378</span></button><div id="catalog"></div><button id="untagged" class="side-nav-button" type="button">未命中规则标签 <span id="untagged-count"></span></button><p class="side-note">点击名称单独查看；勾选右侧方框可组合多个子领域。</p><p class="side-note" id="catalog-status"></p></aside>
+<main class="main"><section class="overview"><div class="overline">Research navigator · 17 fields / 171 subfields</div><h1 id="view-title">全部领域</h1><p id="view-description"></p><p class="translation-meter" id="translation-meter"></p><div id="chips" class="chips"></div><div id="field-overview"></div></section>
+<section class="controls" aria-label="论文检索与筛选"><div class="search-row"><input id="query" type="search" aria-label="搜索论文" placeholder="题名 / 关键词 / 标签 / 投稿编号（空格表示同时包含）"><button type="button" id="reset">清除筛选</button><button type="button" id="export" class="primary-button">导出结果</button></div><div class="filter-row"><select id="status" aria-label="投稿状态"><option value="active">Active 投稿</option><option value="all">全部状态</option><option value="withdrawn">撤稿</option><option value="desk_rejected">Desk reject</option></select><select id="area" aria-label="作者自选领域"></select><label id="mode-wrap" hidden><select id="mode" aria-label="标签组合方式"><option value="all">同时命中全部标签</option><option value="any">命中任一标签</option></select></label><select id="sort" aria-label="排序"><option value="number">投稿编号 ↑</option><option value="reverse">投稿编号 ↓</option><option value="title">题名 A–Z</option></select><select id="size" aria-label="每页数量"><option value="25">每页 25 篇</option><option value="50">每页 50 篇</option><option value="100">每页 100 篇</option></select></div><div class="check-row"><label><input id="full" type="checkbox">同时检索英文摘要</label><label><input id="saved" type="checkbox">仅看收藏（<span id="favorite-total">0</span>）</label><span class="help">按 / 聚焦搜索 · 可复制地址栏保存筛选</span></div></section>
+<div class="resultbar"><div><span id="busy" class="spinner" hidden></span><span id="result-info" aria-live="polite"></span></div><div id="pagination-top" class="pagination"></div></div><div id="results"></div><div id="pagination-bottom" class="pagination bottom-pages"></div>
+<details id="about" class="about"><summary>数据来源、分类说明与使用提示</summary><p>数据为 <strong id="snapshot">2026-10-07</strong> 的仓库存档，整理于 2026-10-17。共 43,013 篇：active 42,378、撤稿 216、desk reject 419。默认显示 active，可切换全部状态。状态未实时复核。</p><p>来源：<a href="https://github.com/yzc-666/iclr2027-explorer/tree/5b07b9aa7c2c5fbca35a9f4bb765cf71c489dbf0" target="_blank" rel="noopener">iclr2027-explorer 固定版本</a>；<a href="https://github.com/yzc-666/iclr2027-explorer/blob/5b07b9aa7c2c5fbca35a9f4bb765cf71c489dbf0/CATEGORIES.md" target="_blank" rel="noopener">分类统计</a>；<a href="https://github.com/yzc-666/iclr2027-explorer/blob/5b07b9aa7c2c5fbca35a9f4bb765cf71c489dbf0/scripts/taxonomy.py" target="_blank" rel="noopener">标签规则</a>。</p><p>17 个大领域、171 个子领域沿用仓库规则标签，可重叠，数量不能直接相加。目录数量仅随状态切换；结果数量同时受所有筛选条件影响。作者自选领域是另外一套单选分类。</p><p><strong>子领域概括是本次编写的检索指引，说明常见研究对象和阅读要点；不代表对该子领域全部投稿做了人工系统综述。</strong>规则标签可能误匹配或漏检，须结合原始摘要判断。完整摘要为仓库存档原文，未逐篇核验论文全文及实验。</p><p id="translation-status">中文题名、摘要和一句话导读正在分批补充。已完成条目可切换“中文翻译 / 英文原文”；其余条目保留完整英文。原文可能含 Markdown 或 LaTeX 源码。</p><p>网页打开后无需网络读取数据；OpenReview 和 GitHub 来源链接需要联网，OpenReview 可能要求访问验证。建议用近期版本的 Chrome 或 Edge 打开完整 HTML 文件。收藏仅保存在当前浏览器，不会上传。</p><p>搜索默认覆盖题名、关键词、标签与投稿编号；空格分隔的词要求同时出现，可用英文双引号搜索短语。勾选“同时检索英文摘要”会扫描本地原文，需要稍多时间。筛选条件写入地址栏，导出文件只包含当前筛选结果的索引。</p></details><p class="footer">ICLR 2027 · 本地文献导航 · 全量存档与原始摘要 · 中英摘要可切换 · 中文译文分批补充</p></main></div>
+<script type="application/octet-stream" id="index-data" data-src="data/index-data.json.gz"></script>
+<script type="application/octet-stream" id="abstract-0" data-src="data/abstract-0.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-0" data-src="data/abstract-zh-0.json.gz"></script>
+<script type="application/octet-stream" id="abstract-1" data-src="data/abstract-1.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-1" data-src="data/abstract-zh-1.json.gz"></script>
+<script type="application/octet-stream" id="abstract-2" data-src="data/abstract-2.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-2" data-src="data/abstract-zh-2.json.gz"></script>
+<script type="application/octet-stream" id="abstract-3" data-src="data/abstract-3.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-3" data-src="data/abstract-zh-3.json.gz"></script>
+<script type="application/octet-stream" id="abstract-4" data-src="data/abstract-4.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-4" data-src="data/abstract-zh-4.json.gz"></script>
+<script type="application/octet-stream" id="abstract-5" data-src="data/abstract-5.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-5" data-src="data/abstract-zh-5.json.gz"></script>
+<script type="application/octet-stream" id="abstract-6" data-src="data/abstract-6.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-6" data-src="data/abstract-zh-6.json.gz"></script>
+<script type="application/octet-stream" id="abstract-7" data-src="data/abstract-7.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-7" data-src="data/abstract-zh-7.json.gz"></script>
+<script type="application/octet-stream" id="abstract-8" data-src="data/abstract-8.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-8" data-src="data/abstract-zh-8.json.gz"></script>
+<script type="application/octet-stream" id="abstract-9" data-src="data/abstract-9.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-9" data-src="data/abstract-zh-9.json.gz"></script>
+<script type="application/octet-stream" id="abstract-10" data-src="data/abstract-10.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-10" data-src="data/abstract-zh-10.json.gz"></script>
+<script type="application/octet-stream" id="abstract-11" data-src="data/abstract-11.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-11" data-src="data/abstract-zh-11.json.gz"></script>
+<script type="application/octet-stream" id="abstract-12" data-src="data/abstract-12.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-12" data-src="data/abstract-zh-12.json.gz"></script>
+<script type="application/octet-stream" id="abstract-13" data-src="data/abstract-13.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-13" data-src="data/abstract-zh-13.json.gz"></script>
+<script type="application/octet-stream" id="abstract-14" data-src="data/abstract-14.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-14" data-src="data/abstract-zh-14.json.gz"></script>
+<script type="application/octet-stream" id="abstract-15" data-src="data/abstract-15.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-15" data-src="data/abstract-zh-15.json.gz"></script>
+<script type="application/octet-stream" id="abstract-16" data-src="data/abstract-16.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-16" data-src="data/abstract-zh-16.json.gz"></script>
+<script type="application/octet-stream" id="abstract-17" data-src="data/abstract-17.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-17" data-src="data/abstract-zh-17.json.gz"></script>
+<script type="application/octet-stream" id="abstract-18" data-src="data/abstract-18.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-18" data-src="data/abstract-zh-18.json.gz"></script>
+<script type="application/octet-stream" id="abstract-19" data-src="data/abstract-19.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-19" data-src="data/abstract-zh-19.json.gz"></script>
+<script type="application/octet-stream" id="abstract-20" data-src="data/abstract-20.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-20" data-src="data/abstract-zh-20.json.gz"></script>
+<script type="application/octet-stream" id="abstract-21" data-src="data/abstract-21.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-21" data-src="data/abstract-zh-21.json.gz"></script>
+<script type="application/octet-stream" id="abstract-22" data-src="data/abstract-22.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-22" data-src="data/abstract-zh-22.json.gz"></script>
+<script type="application/octet-stream" id="abstract-23" data-src="data/abstract-23.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-23" data-src="data/abstract-zh-23.json.gz"></script>
+<script type="application/octet-stream" id="abstract-24" data-src="data/abstract-24.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-24" data-src="data/abstract-zh-24.json.gz"></script>
+<script type="application/octet-stream" id="abstract-25" data-src="data/abstract-25.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-25" data-src="data/abstract-zh-25.json.gz"></script>
+<script type="application/octet-stream" id="abstract-26" data-src="data/abstract-26.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-26" data-src="data/abstract-zh-26.json.gz"></script>
+<script type="application/octet-stream" id="abstract-27" data-src="data/abstract-27.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-27" data-src="data/abstract-zh-27.json.gz"></script>
+<script type="application/octet-stream" id="abstract-28" data-src="data/abstract-28.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-28" data-src="data/abstract-zh-28.json.gz"></script>
+<script type="application/octet-stream" id="abstract-29" data-src="data/abstract-29.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-29" data-src="data/abstract-zh-29.json.gz"></script>
+<script type="application/octet-stream" id="abstract-30" data-src="data/abstract-30.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-30" data-src="data/abstract-zh-30.json.gz"></script>
+<script type="application/octet-stream" id="abstract-31" data-src="data/abstract-31.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-31" data-src="data/abstract-zh-31.json.gz"></script>
+<script type="application/octet-stream" id="abstract-32" data-src="data/abstract-32.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-32" data-src="data/abstract-zh-32.json.gz"></script>
+<script type="application/octet-stream" id="abstract-33" data-src="data/abstract-33.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-33" data-src="data/abstract-zh-33.json.gz"></script>
+<script type="application/octet-stream" id="abstract-34" data-src="data/abstract-34.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-34" data-src="data/abstract-zh-34.json.gz"></script>
+<script type="application/octet-stream" id="abstract-35" data-src="data/abstract-35.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-35" data-src="data/abstract-zh-35.json.gz"></script>
+<script type="application/octet-stream" id="abstract-36" data-src="data/abstract-36.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-36" data-src="data/abstract-zh-36.json.gz"></script>
+<script type="application/octet-stream" id="abstract-37" data-src="data/abstract-37.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-37" data-src="data/abstract-zh-37.json.gz"></script>
+<script type="application/octet-stream" id="abstract-38" data-src="data/abstract-38.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-38" data-src="data/abstract-zh-38.json.gz"></script>
+<script type="application/octet-stream" id="abstract-39" data-src="data/abstract-39.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-39" data-src="data/abstract-zh-39.json.gz"></script>
+<script type="application/octet-stream" id="abstract-40" data-src="data/abstract-40.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-40" data-src="data/abstract-zh-40.json.gz"></script>
+<script type="application/octet-stream" id="abstract-41" data-src="data/abstract-41.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-41" data-src="data/abstract-zh-41.json.gz"></script>
+<script type="application/octet-stream" id="abstract-42" data-src="data/abstract-42.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-42" data-src="data/abstract-zh-42.json.gz"></script>
+<script type="application/octet-stream" id="abstract-43" data-src="data/abstract-43.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-43" data-src="data/abstract-zh-43.json.gz"></script>
+<script type="application/octet-stream" id="abstract-44" data-src="data/abstract-44.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-44" data-src="data/abstract-zh-44.json.gz"></script>
+<script type="application/octet-stream" id="abstract-45" data-src="data/abstract-45.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-45" data-src="data/abstract-zh-45.json.gz"></script>
+<script type="application/octet-stream" id="abstract-46" data-src="data/abstract-46.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-46" data-src="data/abstract-zh-46.json.gz"></script>
+<script type="application/octet-stream" id="abstract-47" data-src="data/abstract-47.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-47" data-src="data/abstract-zh-47.json.gz"></script>
+<script type="application/octet-stream" id="abstract-48" data-src="data/abstract-48.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-48" data-src="data/abstract-zh-48.json.gz"></script>
+<script type="application/octet-stream" id="abstract-49" data-src="data/abstract-49.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-49" data-src="data/abstract-zh-49.json.gz"></script>
+<script type="application/octet-stream" id="abstract-50" data-src="data/abstract-50.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-50" data-src="data/abstract-zh-50.json.gz"></script>
+<script type="application/octet-stream" id="abstract-51" data-src="data/abstract-51.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-51" data-src="data/abstract-zh-51.json.gz"></script>
+<script type="application/octet-stream" id="abstract-52" data-src="data/abstract-52.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-52" data-src="data/abstract-zh-52.json.gz"></script>
+<script type="application/octet-stream" id="abstract-53" data-src="data/abstract-53.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-53" data-src="data/abstract-zh-53.json.gz"></script>
+<script type="application/octet-stream" id="abstract-54" data-src="data/abstract-54.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-54" data-src="data/abstract-zh-54.json.gz"></script>
+<script type="application/octet-stream" id="abstract-55" data-src="data/abstract-55.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-55" data-src="data/abstract-zh-55.json.gz"></script>
+<script type="application/octet-stream" id="abstract-56" data-src="data/abstract-56.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-56" data-src="data/abstract-zh-56.json.gz"></script>
+<script type="application/octet-stream" id="abstract-57" data-src="data/abstract-57.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-57" data-src="data/abstract-zh-57.json.gz"></script>
+<script type="application/octet-stream" id="abstract-58" data-src="data/abstract-58.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-58" data-src="data/abstract-zh-58.json.gz"></script>
+<script type="application/octet-stream" id="abstract-59" data-src="data/abstract-59.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-59" data-src="data/abstract-zh-59.json.gz"></script>
+<script type="application/octet-stream" id="abstract-60" data-src="data/abstract-60.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-60" data-src="data/abstract-zh-60.json.gz"></script>
+<script type="application/octet-stream" id="abstract-61" data-src="data/abstract-61.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-61" data-src="data/abstract-zh-61.json.gz"></script>
+<script type="application/octet-stream" id="abstract-62" data-src="data/abstract-62.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-62" data-src="data/abstract-zh-62.json.gz"></script>
+<script type="application/octet-stream" id="abstract-63" data-src="data/abstract-63.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-63" data-src="data/abstract-zh-63.json.gz"></script>
+<script type="application/octet-stream" id="abstract-64" data-src="data/abstract-64.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-64" data-src="data/abstract-zh-64.json.gz"></script>
+<script type="application/octet-stream" id="abstract-65" data-src="data/abstract-65.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-65" data-src="data/abstract-zh-65.json.gz"></script>
+<script type="application/octet-stream" id="abstract-66" data-src="data/abstract-66.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-66" data-src="data/abstract-zh-66.json.gz"></script>
+<script type="application/octet-stream" id="abstract-67" data-src="data/abstract-67.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-67" data-src="data/abstract-zh-67.json.gz"></script>
+<script type="application/octet-stream" id="abstract-68" data-src="data/abstract-68.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-68" data-src="data/abstract-zh-68.json.gz"></script>
+<script type="application/octet-stream" id="abstract-69" data-src="data/abstract-69.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-69" data-src="data/abstract-zh-69.json.gz"></script>
+<script type="application/octet-stream" id="abstract-70" data-src="data/abstract-70.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-70" data-src="data/abstract-zh-70.json.gz"></script>
+<script type="application/octet-stream" id="abstract-71" data-src="data/abstract-71.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-71" data-src="data/abstract-zh-71.json.gz"></script>
+<script type="application/octet-stream" id="abstract-72" data-src="data/abstract-72.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-72" data-src="data/abstract-zh-72.json.gz"></script>
+<script type="application/octet-stream" id="abstract-73" data-src="data/abstract-73.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-73" data-src="data/abstract-zh-73.json.gz"></script>
+<script type="application/octet-stream" id="abstract-74" data-src="data/abstract-74.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-74" data-src="data/abstract-zh-74.json.gz"></script>
+<script type="application/octet-stream" id="abstract-75" data-src="data/abstract-75.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-75" data-src="data/abstract-zh-75.json.gz"></script>
+<script type="application/octet-stream" id="abstract-76" data-src="data/abstract-76.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-76" data-src="data/abstract-zh-76.json.gz"></script>
+<script type="application/octet-stream" id="abstract-77" data-src="data/abstract-77.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-77" data-src="data/abstract-zh-77.json.gz"></script>
+<script type="application/octet-stream" id="abstract-78" data-src="data/abstract-78.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-78" data-src="data/abstract-zh-78.json.gz"></script>
+<script type="application/octet-stream" id="abstract-79" data-src="data/abstract-79.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-79" data-src="data/abstract-zh-79.json.gz"></script>
+<script type="application/octet-stream" id="abstract-80" data-src="data/abstract-80.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-80" data-src="data/abstract-zh-80.json.gz"></script>
+<script type="application/octet-stream" id="abstract-81" data-src="data/abstract-81.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-81" data-src="data/abstract-zh-81.json.gz"></script>
+<script type="application/octet-stream" id="abstract-82" data-src="data/abstract-82.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-82" data-src="data/abstract-zh-82.json.gz"></script>
+<script type="application/octet-stream" id="abstract-83" data-src="data/abstract-83.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-83" data-src="data/abstract-zh-83.json.gz"></script>
+<script type="application/octet-stream" id="abstract-84" data-src="data/abstract-84.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-84" data-src="data/abstract-zh-84.json.gz"></script>
+<script type="application/octet-stream" id="abstract-85" data-src="data/abstract-85.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-85" data-src="data/abstract-zh-85.json.gz"></script>
+<script type="application/octet-stream" id="abstract-86" data-src="data/abstract-86.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-86" data-src="data/abstract-zh-86.json.gz"></script>
+<script type="application/octet-stream" id="abstract-87" data-src="data/abstract-87.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-87" data-src="data/abstract-zh-87.json.gz"></script>
+<script type="application/octet-stream" id="abstract-88" data-src="data/abstract-88.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-88" data-src="data/abstract-zh-88.json.gz"></script>
+<script type="application/octet-stream" id="abstract-89" data-src="data/abstract-89.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-89" data-src="data/abstract-zh-89.json.gz"></script>
+<script type="application/octet-stream" id="abstract-90" data-src="data/abstract-90.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-90" data-src="data/abstract-zh-90.json.gz"></script>
+<script type="application/octet-stream" id="abstract-91" data-src="data/abstract-91.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-91" data-src="data/abstract-zh-91.json.gz"></script>
+<script type="application/octet-stream" id="abstract-92" data-src="data/abstract-92.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-92" data-src="data/abstract-zh-92.json.gz"></script>
+<script type="application/octet-stream" id="abstract-93" data-src="data/abstract-93.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-93" data-src="data/abstract-zh-93.json.gz"></script>
+<script type="application/octet-stream" id="abstract-94" data-src="data/abstract-94.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-94" data-src="data/abstract-zh-94.json.gz"></script>
+<script type="application/octet-stream" id="abstract-95" data-src="data/abstract-95.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-95" data-src="data/abstract-zh-95.json.gz"></script>
+<script type="application/octet-stream" id="abstract-96" data-src="data/abstract-96.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-96" data-src="data/abstract-zh-96.json.gz"></script>
+<script type="application/octet-stream" id="abstract-97" data-src="data/abstract-97.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-97" data-src="data/abstract-zh-97.json.gz"></script>
+<script type="application/octet-stream" id="abstract-98" data-src="data/abstract-98.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-98" data-src="data/abstract-zh-98.json.gz"></script>
+<script type="application/octet-stream" id="abstract-99" data-src="data/abstract-99.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-99" data-src="data/abstract-zh-99.json.gz"></script>
+<script type="application/octet-stream" id="abstract-100" data-src="data/abstract-100.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-100" data-src="data/abstract-zh-100.json.gz"></script>
+<script type="application/octet-stream" id="abstract-101" data-src="data/abstract-101.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-101" data-src="data/abstract-zh-101.json.gz"></script>
+<script type="application/octet-stream" id="abstract-102" data-src="data/abstract-102.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-102" data-src="data/abstract-zh-102.json.gz"></script>
+<script type="application/octet-stream" id="abstract-103" data-src="data/abstract-103.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-103" data-src="data/abstract-zh-103.json.gz"></script>
+<script type="application/octet-stream" id="abstract-104" data-src="data/abstract-104.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-104" data-src="data/abstract-zh-104.json.gz"></script>
+<script type="application/octet-stream" id="abstract-105" data-src="data/abstract-105.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-105" data-src="data/abstract-zh-105.json.gz"></script>
+<script type="application/octet-stream" id="abstract-106" data-src="data/abstract-106.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-106" data-src="data/abstract-zh-106.json.gz"></script>
+<script type="application/octet-stream" id="abstract-107" data-src="data/abstract-107.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-107" data-src="data/abstract-zh-107.json.gz"></script>
+<script type="application/octet-stream" id="abstract-108" data-src="data/abstract-108.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-108" data-src="data/abstract-zh-108.json.gz"></script>
+<script type="application/octet-stream" id="abstract-109" data-src="data/abstract-109.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-109" data-src="data/abstract-zh-109.json.gz"></script>
+<script type="application/octet-stream" id="abstract-110" data-src="data/abstract-110.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-110" data-src="data/abstract-zh-110.json.gz"></script>
+<script type="application/octet-stream" id="abstract-111" data-src="data/abstract-111.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-111" data-src="data/abstract-zh-111.json.gz"></script>
+<script type="application/octet-stream" id="abstract-112" data-src="data/abstract-112.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-112" data-src="data/abstract-zh-112.json.gz"></script>
+<script type="application/octet-stream" id="abstract-113" data-src="data/abstract-113.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-113" data-src="data/abstract-zh-113.json.gz"></script>
+<script type="application/octet-stream" id="abstract-114" data-src="data/abstract-114.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-114" data-src="data/abstract-zh-114.json.gz"></script>
+<script type="application/octet-stream" id="abstract-115" data-src="data/abstract-115.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-115" data-src="data/abstract-zh-115.json.gz"></script>
+<script type="application/octet-stream" id="abstract-116" data-src="data/abstract-116.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-116" data-src="data/abstract-zh-116.json.gz"></script>
+<script type="application/octet-stream" id="abstract-117" data-src="data/abstract-117.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-117" data-src="data/abstract-zh-117.json.gz"></script>
+<script type="application/octet-stream" id="abstract-118" data-src="data/abstract-118.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-118" data-src="data/abstract-zh-118.json.gz"></script>
+<script type="application/octet-stream" id="abstract-119" data-src="data/abstract-119.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-119" data-src="data/abstract-zh-119.json.gz"></script>
+<script type="application/octet-stream" id="abstract-120" data-src="data/abstract-120.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-120" data-src="data/abstract-zh-120.json.gz"></script>
+<script type="application/octet-stream" id="abstract-121" data-src="data/abstract-121.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-121" data-src="data/abstract-zh-121.json.gz"></script>
+<script type="application/octet-stream" id="abstract-122" data-src="data/abstract-122.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-122" data-src="data/abstract-zh-122.json.gz"></script>
+<script type="application/octet-stream" id="abstract-123" data-src="data/abstract-123.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-123" data-src="data/abstract-zh-123.json.gz"></script>
+<script type="application/octet-stream" id="abstract-124" data-src="data/abstract-124.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-124" data-src="data/abstract-zh-124.json.gz"></script>
+<script type="application/octet-stream" id="abstract-125" data-src="data/abstract-125.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-125" data-src="data/abstract-zh-125.json.gz"></script>
+<script type="application/octet-stream" id="abstract-126" data-src="data/abstract-126.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-126" data-src="data/abstract-zh-126.json.gz"></script>
+<script type="application/octet-stream" id="abstract-127" data-src="data/abstract-127.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-127" data-src="data/abstract-zh-127.json.gz"></script>
+<script type="application/octet-stream" id="abstract-128" data-src="data/abstract-128.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-128" data-src="data/abstract-zh-128.json.gz"></script>
+<script type="application/octet-stream" id="abstract-129" data-src="data/abstract-129.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-129" data-src="data/abstract-zh-129.json.gz"></script>
+<script type="application/octet-stream" id="abstract-130" data-src="data/abstract-130.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-130" data-src="data/abstract-zh-130.json.gz"></script>
+<script type="application/octet-stream" id="abstract-131" data-src="data/abstract-131.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-131" data-src="data/abstract-zh-131.json.gz"></script>
+<script type="application/octet-stream" id="abstract-132" data-src="data/abstract-132.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-132" data-src="data/abstract-zh-132.json.gz"></script>
+<script type="application/octet-stream" id="abstract-133" data-src="data/abstract-133.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-133" data-src="data/abstract-zh-133.json.gz"></script>
+<script type="application/octet-stream" id="abstract-134" data-src="data/abstract-134.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-134" data-src="data/abstract-zh-134.json.gz"></script>
+<script type="application/octet-stream" id="abstract-135" data-src="data/abstract-135.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-135" data-src="data/abstract-zh-135.json.gz"></script>
+<script type="application/octet-stream" id="abstract-136" data-src="data/abstract-136.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-136" data-src="data/abstract-zh-136.json.gz"></script>
+<script type="application/octet-stream" id="abstract-137" data-src="data/abstract-137.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-137" data-src="data/abstract-zh-137.json.gz"></script>
+<script type="application/octet-stream" id="abstract-138" data-src="data/abstract-138.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-138" data-src="data/abstract-zh-138.json.gz"></script>
+<script type="application/octet-stream" id="abstract-139" data-src="data/abstract-139.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-139" data-src="data/abstract-zh-139.json.gz"></script>
+<script type="application/octet-stream" id="abstract-140" data-src="data/abstract-140.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-140" data-src="data/abstract-zh-140.json.gz"></script>
+<script type="application/octet-stream" id="abstract-141" data-src="data/abstract-141.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-141" data-src="data/abstract-zh-141.json.gz"></script>
+<script type="application/octet-stream" id="abstract-142" data-src="data/abstract-142.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-142" data-src="data/abstract-zh-142.json.gz"></script>
+<script type="application/octet-stream" id="abstract-143" data-src="data/abstract-143.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-143" data-src="data/abstract-zh-143.json.gz"></script>
+<script type="application/octet-stream" id="abstract-144" data-src="data/abstract-144.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-144" data-src="data/abstract-zh-144.json.gz"></script>
+<script type="application/octet-stream" id="abstract-145" data-src="data/abstract-145.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-145" data-src="data/abstract-zh-145.json.gz"></script>
+<script type="application/octet-stream" id="abstract-146" data-src="data/abstract-146.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-146" data-src="data/abstract-zh-146.json.gz"></script>
+<script type="application/octet-stream" id="abstract-147" data-src="data/abstract-147.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-147" data-src="data/abstract-zh-147.json.gz"></script>
+<script type="application/octet-stream" id="abstract-148" data-src="data/abstract-148.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-148" data-src="data/abstract-zh-148.json.gz"></script>
+<script type="application/octet-stream" id="abstract-149" data-src="data/abstract-149.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-149" data-src="data/abstract-zh-149.json.gz"></script>
+<script type="application/octet-stream" id="abstract-150" data-src="data/abstract-150.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-150" data-src="data/abstract-zh-150.json.gz"></script>
+<script type="application/octet-stream" id="abstract-151" data-src="data/abstract-151.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-151" data-src="data/abstract-zh-151.json.gz"></script>
+<script type="application/octet-stream" id="abstract-152" data-src="data/abstract-152.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-152" data-src="data/abstract-zh-152.json.gz"></script>
+<script type="application/octet-stream" id="abstract-153" data-src="data/abstract-153.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-153" data-src="data/abstract-zh-153.json.gz"></script>
+<script type="application/octet-stream" id="abstract-154" data-src="data/abstract-154.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-154" data-src="data/abstract-zh-154.json.gz"></script>
+<script type="application/octet-stream" id="abstract-155" data-src="data/abstract-155.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-155" data-src="data/abstract-zh-155.json.gz"></script>
+<script type="application/octet-stream" id="abstract-156" data-src="data/abstract-156.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-156" data-src="data/abstract-zh-156.json.gz"></script>
+<script type="application/octet-stream" id="abstract-157" data-src="data/abstract-157.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-157" data-src="data/abstract-zh-157.json.gz"></script>
+<script type="application/octet-stream" id="abstract-158" data-src="data/abstract-158.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-158" data-src="data/abstract-zh-158.json.gz"></script>
+<script type="application/octet-stream" id="abstract-159" data-src="data/abstract-159.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-159" data-src="data/abstract-zh-159.json.gz"></script>
+<script type="application/octet-stream" id="abstract-160" data-src="data/abstract-160.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-160" data-src="data/abstract-zh-160.json.gz"></script>
+<script type="application/octet-stream" id="abstract-161" data-src="data/abstract-161.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-161" data-src="data/abstract-zh-161.json.gz"></script>
+<script type="application/octet-stream" id="abstract-162" data-src="data/abstract-162.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-162" data-src="data/abstract-zh-162.json.gz"></script>
+<script type="application/octet-stream" id="abstract-163" data-src="data/abstract-163.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-163" data-src="data/abstract-zh-163.json.gz"></script>
+<script type="application/octet-stream" id="abstract-164" data-src="data/abstract-164.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-164" data-src="data/abstract-zh-164.json.gz"></script>
+<script type="application/octet-stream" id="abstract-165" data-src="data/abstract-165.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-165" data-src="data/abstract-zh-165.json.gz"></script>
+<script type="application/octet-stream" id="abstract-166" data-src="data/abstract-166.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-166" data-src="data/abstract-zh-166.json.gz"></script>
+<script type="application/octet-stream" id="abstract-167" data-src="data/abstract-167.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-167" data-src="data/abstract-zh-167.json.gz"></script>
+<script type="application/octet-stream" id="abstract-168" data-src="data/abstract-168.json.gz"></script>
+<script type="application/octet-stream" id="abstract-zh-168" data-src="data/abstract-zh-168.json.gz"></script>
+<script>'use strict';
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const statusNames={active:'Active',withdrawn:'撤稿',desk_rejected:'Desk reject',all:'全部状态'};
+let data, papers, groups, tags, tagById, groupById, tagCounts, groupCounts;
+let state={q:'',status:'active',group:'',tags:[],mode:'all',area:'',sort:'number',page:1,size:25,full:false,favorites:false};
+let selected=[], renderNonce=0, timer, favoriteIds=new Set(), shardCache=new Map(), pendingShards=new Map(), zhShardCache=new Map();
+try{favoriteIds=new Set(JSON.parse(localStorage.getItem('iclr2027-favorites')||'[]'))}catch{}
+
+async function inflate(id){
+ const element=$(id);if(!element)throw Error('找不到数据：'+id);
+ let bytes;
+ if(element.dataset.src){
+  const response=await fetch(element.dataset.src);
+  if(!response.ok)throw Error('数据加载失败：'+response.status);
+  bytes=await response.arrayBuffer();
+ }else{
+  const raw=atob(element.textContent.trim());bytes=Uint8Array.from(raw,c=>c.charCodeAt(0));
+ }
+ const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
+ return JSON.parse(await new Response(stream).text());
+}
+async function loadShard(n){
+ if(shardCache.has(n)){const v=shardCache.get(n);shardCache.delete(n);shardCache.set(n,v);return v}
+ if(pendingShards.has(n))return pendingShards.get(n);
+ const task=inflate('abstract-'+n).then(v=>{pendingShards.delete(n);shardCache.set(n,v);while(shardCache.size>12)shardCache.delete(shardCache.keys().next().value);return v});
+ pendingShards.set(n,task);return task;
+}
+async function getAbstract(i,language='en'){
+ const shard=Math.floor(i/data.shardSize),offset=i%data.shardSize;
+ if(language==='zh'){
+  if(!data.translation.available||!papers[i][10])return null;
+  if(!zhShardCache.has(shard)){const id='abstract-zh-'+shard;if(!$(id))return null;zhShardCache.set(shard,await inflate(id));while(zhShardCache.size>12)zhShardCache.delete(zhShardCache.keys().next().value)}
+  return zhShardCache.get(shard)[offset]??null;
+ }
+ return (await loadShard(shard))[offset]
+}
+function terms(q){return [...q.matchAll(/"([^"]+)"|(\S+)/g)].map(x=>(x[1]||x[2]).toLocaleLowerCase())}
+function readHash(){
+ const h=new URLSearchParams(location.hash.slice(1));
+ state.q=h.get('q')||'';state.status=['active','withdrawn','desk_rejected','all'].includes(h.get('status'))?h.get('status'):'active';
+ state.group=h.get('group')==='untagged'||groupById.has(h.get('group'))?h.get('group'):'';
+ state.tags=(h.get('tags')||'').split(',').filter(x=>tagById.has(x));state.mode=h.get('mode')==='any'?'any':'all';
+ state.area=/^\d+$/.test(h.get('area')||'')&&Number(h.get('area'))<data.areas.length?h.get('area'):'';
+ state.sort=['number','reverse','title'].includes(h.get('sort'))?h.get('sort'):'number';state.full=h.get('full')==='1';state.favorites=h.get('saved')==='1';
+ state.page=Math.max(1,Number(h.get('page'))||1);state.size=[25,50,100].includes(Number(h.get('size')))?Number(h.get('size')):25;
+}
+function saveHash(){
+ const h=new URLSearchParams();for(const [k,v,def] of [['q',state.q,''],['status',state.status,'active'],['group',state.group,''],['tags',state.tags.join(','),''],['mode',state.mode,'all'],['area',state.area,''],['sort',state.sort,'number'],['page',String(state.page),'1'],['size',String(state.size),'25'],['full',state.full?'1':'',''],['saved',state.favorites?'1':'','']])if(v!==def)h.set(k,v);
+ history.replaceState(null,'',h.size?'#'+h.toString():location.pathname+location.search);
+}
+function controls(){
+ $('query').value=state.q;$('status').value=state.status;$('area').value=state.area;$('sort').value=state.sort;$('size').value=String(state.size);$('mode').value=state.mode;$('full').checked=state.full;$('saved').checked=state.favorites;
+}
+function calculateCounts(){
+ tagCounts=new Array(tags.length).fill(0);groupCounts=new Array(groups.length).fill(0);let untagged=0,n=0;
+ for(const p of papers){if(state.status!=='all'&&data.statuses[p[5]]!==state.status)continue;n++;for(const t of p[6])tagCounts[t]++;for(let g=0;g<groups.length;g++)if(p[7]&(1<<g))groupCounts[g]++;if(!p[6].length)untagged++}
+ $('scope-total').textContent=n.toLocaleString();$('untagged-count').textContent=untagged.toLocaleString();return untagged;
+}
+function catalog(){
+ const q=$('category-query').value.trim().toLowerCase();const untagged=calculateCounts();
+ $('all-fields').classList.toggle('active',!state.group&&!state.tags.length);
+ $('all-fields').innerHTML=`全部领域 <span id="scope-total">${$('scope-total').textContent}</span>`;
+ $('untagged').classList.toggle('active',state.group==='untagged');
+ $('catalog').innerHTML=groups.map((g,gi)=>{
+  const matchGroup=[g.zh,g.en,g.description].join(' ').toLowerCase().includes(q);
+  const children=g.tags.filter(t=>matchGroup||[tags[t].zh,tags[t].en,tags[t].description,tags[t].id].join(' ').toLowerCase().includes(q));
+  if(q&&!children.length)return '';
+  const open=q||state.group===g.id||g.tags.some(t=>state.tags.includes(tags[t].id));
+  return `<details class="cat-group" ${open?'open':''}><summary><span>${esc(g.zh)}</span><b>${groupCounts[gi].toLocaleString()}</b></summary><button type="button" class="group-entry ${state.group===g.id?'active':''}" data-group="${g.id}">查看该领域全部论文 →</button>${children.map(t=>`<div class="sub-row"><button type="button" class="sub-entry ${state.tags.includes(tags[t].id)?'active':''}" data-tag="${tags[t].id}" title="${esc(tags[t].description)}">${esc(tags[t].zh)}<span>${tagCounts[t].toLocaleString()}</span></button><label class="combine" title="加入或移出跨领域组合筛选"><input type="checkbox" aria-label="组合筛选 ${esc(tags[t].zh)}" data-combine="${tags[t].id}" ${state.tags.includes(tags[t].id)?'checked':''}></label></div>`).join('')}</details>`;
+ }).join('')||'<p class="muted">没有匹配的子领域。</p>';
+ $('catalog-status').textContent=`目录数量按${statusNames[state.status]}计算；标签可重叠。`;
+}
+function overview(){
+ const chosenTags=state.tags.map(x=>tagById.get(x));let title='全部领域',description='在 17 个大领域、171 个子领域中定位论文。可从左侧目录选择，也可搜索题名、关键词、标签或投稿编号。';
+ if(state.group==='untagged'){title='未命中规则标签';description='这些投稿没有命中仓库中的细分标签，仍保留作者自选领域、题名、关键词和摘要，可继续检索。'}
+ else if(chosenTags.length===1){title=chosenTags[0].zh;description=chosenTags[0].description}
+ else if(chosenTags.length>1){title='跨子领域组合';description=`${state.mode==='all'?'同时命中全部':'命中任一'}所选标签。可在左侧勾选增减子领域，组合筛选跨越大领域边界。`}
+ else if(state.group){const g=groupById.get(state.group);title=g.zh;description=g.description}
+ $('view-title').textContent=title;$('view-description').textContent=description;document.title=title+' · ICLR 2027 论文检索';
+ $('chips').innerHTML=state.tags.map(id=>`<button type="button" class="chip" data-remove="${id}">${esc(tagById.get(id).zh)} <span aria-hidden="true">×</span></button>`).join('');
+ $('mode-wrap').hidden=state.tags.length<2;
+ const container=$('field-overview');
+ if(state.group==='untagged'||chosenTags.length){container.innerHTML='';return}
+ if(state.group){const g=groupById.get(state.group);container.innerHTML=`<details class="overview-details"><summary>查看 ${g.tags.length} 个子领域及概括</summary><div class="sub-grid">${g.tags.map(t=>`<button type="button" class="description-card" data-tag="${tags[t].id}"><strong>${esc(tags[t].zh)} <small>${tagCounts[t].toLocaleString()}</small></strong><p>${esc(tags[t].description)}</p></button>`).join('')}</div></details>`}
+ else{container.innerHTML=`<details class="overview-details"><summary>浏览 17 个领域的介绍</summary><div class="sub-grid">${groups.map((g,gi)=>`<button type="button" class="description-card" data-group="${g.id}"><strong>${esc(g.zh)} <small>${groupCounts[gi].toLocaleString()}</small></strong><p>${esc(g.description)}</p><span class="meta">${g.tags.length} 个子领域 →</span></button>`).join('')}</div></details>`}
+}
+function basicFilter(){
+ const g=state.group&&state.group!=='untagged'?groups.findIndex(x=>x.id===state.group):-1;
+ const tagIndices=state.tags.map(id=>tagById.get(id).index);const query=terms(state.q);const candidates=[];
+ for(let i=0;i<papers.length;i++){
+  const p=papers[i];if(state.status!=='all'&&data.statuses[p[5]]!==state.status)continue;
+  if(state.area!==''&&p[4]!==Number(state.area))continue;if(state.favorites&&!favoriteIds.has(p[0]))continue;
+  if(state.group==='untagged'&&p[6].length)continue;if(g>=0&&!(p[7]&(1<<g)))continue;
+  if(tagIndices.length&&!(state.mode==='all'?tagIndices.every(t=>p[6].includes(t)):tagIndices.some(t=>p[6].includes(t))))continue;
+  const metadata=[p[0],p[1],p[2],p[8]||'',p[3],...p[6].map(t=>tags[t].zh+' '+tags[t].en)].join(' ').toLowerCase();
+  const missing=query.filter(t=>!metadata.includes(t));if(!missing.length)candidates.push({i,missing:[]});else if(state.full)candidates.push({i,missing});
+ }
+ return candidates;
+}
+async function search(){
+ const nonce=++renderNonce;saveHash();$('busy').hidden=false;$('result-info').textContent='正在筛选…';
+ const candidates=basicFilter();let matches=[];
+ if(state.full&&terms(state.q).length){
+  const byShard=new Map();for(const item of candidates){if(!item.missing.length){matches.push(item.i);continue}const n=Math.floor(item.i/data.shardSize);if(!byShard.has(n))byShard.set(n,[]);byShard.get(n).push(item)}
+  let progress=0;for(const [n,items] of byShard){if(nonce!==renderNonce)return;const shard=await loadShard(n);if(nonce!==renderNonce)return;for(const item of items){const raw=shard[item.i%data.shardSize].toLowerCase();if(item.missing.every(t=>raw.includes(t)))matches.push(item.i)}progress++;$('result-info').textContent=`正在检索英文摘要 ${progress} / ${byShard.size} 组…`;await new Promise(r=>setTimeout(r,0))}
+ }else matches=candidates.map(x=>x.i);
+ if(nonce!==renderNonce)return;
+ matches.sort(state.sort==='title'?(a,b)=>papers[a][2].localeCompare(papers[b][2]):(a,b)=>(papers[a][1]-papers[b][1])*(state.sort==='reverse'?-1:1));selected=matches;
+ state.page=Math.min(state.page,Math.max(1,Math.ceil(selected.length/state.size)));$('busy').hidden=true;saveHash();results();
+}
+function card(i){
+ const p=papers[i],saved=favoriteIds.has(p[0]),status=data.statuses[p[5]];
+ const title=p[2];
+ return `<article class="paper" data-paper="${i}"><div class="paper-title"><div><a href="https://openreview.net/forum?id=${encodeURIComponent(p[0])}" target="_blank" rel="noopener">${esc(title)}</a>${p[8]?`<div class="paper-title-zh">${esc(p[8])}</div>`:''}</div><button type="button" class="save ${saved?'selected':''}" data-save="${i}" aria-label="${saved?'取消收藏':'收藏'} ${esc(title)}" title="${saved?'取消收藏':'收藏到此浏览器'}">${saved?'★':'☆'}</button></div>${p[9]?`<p class="paper-intro"><b>一句话导读</b>${esc(p[9])}</p>`:''}${data.sourceNotes?.[p[0]]?`<p class="source-notice">${esc(data.sourceNotes[p[0]])}</p>`:''}<div class="paper-meta"><span>#${p[1]}</span><span class="status ${status}">${statusNames[status]}</span><span>${esc(data.areaZh[p[4]])}</span></div><div class="paper-tags">${p[6].map(t=>`<button type="button" data-tag="${tags[t].id}" title="${esc(tags[t].description)}">${esc(tags[t].zh)}</button>`).join('')||'<span class="muted">未命中规则标签</span>'}</div>${p[3]?`<p class="keywords">关键词：${esc(p[3])}</p>`:''}<details class="paper-abstract" data-abstract="${i}" data-language="${p[10]?'zh':'en'}"><summary>展开摘要</summary><div class="abstract-body"><div class="abstract-tabs" role="group" aria-label="摘要语言"><button type="button" data-language="zh" aria-pressed="${p[10]}" class="${p[10]?'active':''}">中文翻译</button><button type="button" data-language="en" aria-pressed="${!p[10]}" class="${!p[10]?'active':''}">英文原文</button></div><p class="translation-notice" ${p[10]?'hidden':''}>中文译文尚未生成；英文原文可离线查看。</p><div class="abstract-text">正在读取本地摘要…</div><div class="abstract-footer"><a target="_blank" rel="noopener" href="https://github.com/yzc-666/iclr2027-explorer/blob/${data.commit}/docs/data/abs/${Math.floor(i/500)}.json">摘要存档来源 ↗</a><span>${p[10]?'逐篇译文 · 离线保存':'完整英文原文 · 已保存在网页内'}</span></div></div></details></article>`;
+}
+function results(){
+ const start=(state.page-1)*state.size,end=Math.min(start+state.size,selected.length),pages=Math.max(1,Math.ceil(selected.length/state.size));
+ $('result-info').textContent=selected.length?`${selected.length.toLocaleString()} 篇 · 显示 ${start+1}–${end} · ${statusNames[state.status]}`:`没有符合条件的论文 · ${statusNames[state.status]}`;
+ $('results').innerHTML=selected.length?selected.slice(start,end).map(card).join(''):'<div class="empty"><h3>没有匹配结果</h3><p>可以减少组合标签、简化关键词，或切换投稿状态。</p><button type="button" data-reset>清除筛选</button></div>';
+ for(const id of ['pagination-top','pagination-bottom'])$(id).innerHTML=`<button type="button" data-page="1" ${state.page===1?'disabled':''} aria-label="首页">«</button><button type="button" data-page="${state.page-1}" ${state.page===1?'disabled':''}>上一页</button><span>第 ${state.page} / ${pages} 页</span><button type="button" data-page="${state.page+1}" ${state.page>=pages?'disabled':''}>下一页</button><button type="button" data-page="${pages}" ${state.page>=pages?'disabled':''} aria-label="末页">»</button>`;
+ $('favorite-total').textContent=favoriteIds.size;$('export').disabled=!selected.length;
+}
+function changed({counts=false,scroll=false}={}){state.page=1;if(counts)catalog();overview();search().catch(fail);if(scroll){window.scrollTo({top:0,behavior:'smooth'});document.body.classList.remove('menu-open')}}
+function selectTag(id){state.tags=[id];state.group='';$('category-query').value='';catalog();changed({scroll:true})}
+function selectGroup(id){state.tags=[];state.group=id;$('category-query').value='';catalog();changed({scroll:true})}
+function reset(){state={q:'',status:'active',group:'',tags:[],mode:'all',area:'',sort:'number',page:1,size:25,full:false,favorites:false};$('category-query').value='';controls();catalog();changed()}
+function fail(e){console.error(e);$('busy').hidden=true;$('result-info').textContent='读取未完成：'+e.message;$('boot-error').hidden=false;$('boot-error').textContent='读取数据时遇到问题。请使用近期版本的 Chrome 或 Edge 打开完整 HTML 文件。'}
+document.addEventListener('click',async e=>{
+ const t=e.target.closest('button');if(!t)return;
+ if(t.dataset.language){const details=t.closest('details[data-abstract]');if(!details)return;const language=t.dataset.language,index=Number(details.dataset.abstract);details.dataset.language=language;details.querySelectorAll('.abstract-tabs button').forEach(b=>{b.classList.toggle('active',b===t);b.setAttribute('aria-pressed',String(b===t))});const notice=details.querySelector('.translation-notice');if(notice)notice.hidden=language==='en'||Boolean(papers[index][10]);try{const text=await getAbstract(index,language);details.querySelector('.abstract-text').textContent=text||'该文章的中文译文尚未生成。';}catch(err){details.querySelector('.abstract-text').textContent='摘要读取失败：'+err.message}return}
+ if(t.dataset.tag){selectTag(t.dataset.tag);return}if(t.dataset.group){selectGroup(t.dataset.group);return}
+ if(t.dataset.remove){state.tags=state.tags.filter(x=>x!==t.dataset.remove);catalog();changed();return}
+ if(t.hasAttribute('data-page')){state.page=Number(t.dataset.page);saveHash();results();$('result-info').scrollIntoView({block:'start',behavior:'smooth'});return}
+ if(t.hasAttribute('data-reset')){reset();return}
+ if(t.hasAttribute('data-save')){const p=papers[Number(t.dataset.save)];favoriteIds.has(p[0])?favoriteIds.delete(p[0]):favoriteIds.add(p[0]);try{localStorage.setItem('iclr2027-favorites',JSON.stringify([...favoriteIds]))}catch{}if(state.favorites){changed()}else{t.textContent=favoriteIds.has(p[0])?'★':'☆';t.classList.toggle('selected',favoriteIds.has(p[0]));t.title=favoriteIds.has(p[0])?'取消收藏':'收藏到此浏览器';t.setAttribute('aria-label',(favoriteIds.has(p[0])?'取消收藏 ':'收藏 ')+p[2]);$('favorite-total').textContent=favoriteIds.size}return}
+});
+document.addEventListener('toggle',async e=>{
+ const el=e.target;if(!el.matches('details[data-abstract]')||!el.open||el.dataset.loaded)return;
+ try{const language=el.dataset.language||'en',text=await getAbstract(Number(el.dataset.abstract),language);if(el.isConnected){el.querySelector('.abstract-text').textContent=text||'该文章的中文译文尚未生成。';if(language==='en')el.dataset.loaded='1'}}catch(err){if(el.isConnected)el.querySelector('.abstract-text').textContent='摘要读取失败：'+err.message}
+},true);
+function wire(){
+ $('about-link').addEventListener('click',e=>{e.preventDefault();$('about').open=true;$('about').scrollIntoView({behavior:'smooth',block:'start'})});
+ $('query').addEventListener('input',()=>{state.q=$('query').value;clearTimeout(timer);timer=setTimeout(()=>changed(),260)});
+ $('category-query').addEventListener('input',catalog);
+ $('catalog').addEventListener('change',e=>{const id=e.target.dataset.combine;if(!id)return;state.group='';state.tags=state.tags.filter(x=>x!==id);if(e.target.checked)state.tags.push(id);catalog();changed()});
+ for(const id of ['status','area','sort','size','mode'])$(id).addEventListener('change',()=>{state[id]=id==='size'?Number($(id).value):$(id).value;changed({counts:id==='status'})});
+ $('full').addEventListener('change',()=>{state.full=$('full').checked;changed()});$('saved').addEventListener('change',()=>{state.favorites=$('saved').checked;changed()});
+ $('all-fields').addEventListener('click',()=>selectGroup(''));$('untagged').addEventListener('click',()=>selectGroup('untagged'));$('reset').addEventListener('click',reset);
+ $('menu').addEventListener('click',()=>{document.body.classList.toggle('menu-open');$('menu').setAttribute('aria-expanded',document.body.classList.contains('menu-open'))});$('close-menu').addEventListener('click',()=>document.body.classList.remove('menu-open'));$('shade').addEventListener('click',()=>document.body.classList.remove('menu-open'));
+ $('export').addEventListener('click',()=>{const cell=s=>'"'+String(s??'').replace(/"/g,'""')+'"';const rows=[['投稿编号','中文题名','英文原题','状态','作者自选领域','细分标签','关键词','OpenReview'],...selected.map(i=>{const p=papers[i];return[p[1],p[8]||'',p[2],data.statuses[p[5]],data.areas[p[4]],p[6].map(t=>tags[t].zh).join('；'),p[3],'https://openreview.net/forum?id='+p[0]]})];const blob=new Blob(['\ufeff'+rows.map(r=>r.map(cell).join(',')).join('\r\n')],{type:'text/csv;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='ICLR2027_筛选结果.csv';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)});
+ document.addEventListener('keydown',e=>{if(e.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)){e.preventDefault();$('query').focus()}if(e.key==='Escape')document.body.classList.remove('menu-open')});
+ window.addEventListener('hashchange',()=>{readHash();controls();catalog();overview();search().catch(fail)});
+}
+async function boot(){
+ try{
+  if(!window.DecompressionStream)throw Error('浏览器不支持本地压缩数据读取');data=await inflate('index-data');papers=data.papers;groups=data.groups;tags=data.tags;
+  tags.forEach((t,i)=>t.index=i);tagById=new Map(tags.map(t=>[t.id,t]));groupById=new Map(groups.map(g=>[g.id,g]));
+  $('area').innerHTML='<option value="">全部作者自选领域</option>'+data.areaZh.map((x,i)=>`<option value="${i}">${esc(x)}</option>`).join('');
+  $('total').textContent=papers.length.toLocaleString();const translated=data.translation.translatedCount||0,reviewed=data.translation.reviewedCount||0;$('translation-meter').textContent=`中文译文 ${translated.toLocaleString()} / ${papers.length.toLocaleString()} 篇 · 交叉检查已完成 ${reviewed.toLocaleString()} 篇`;$('translation-status').textContent=`已载入 ${translated.toLocaleString()} 篇中文标题、摘要和一句话导读，其中 ${reviewed.toLocaleString()} 篇已按统一规范交叉检查。已完成条目可切换中文翻译与英文原文；其余条目显示待补充提示并保留完整英文。`;
+$('snapshot').textContent=data.built;$('favorite-total').textContent=favoriteIds.size;readHash();controls();wire();catalog();overview();await search();$('loading').hidden=true;$('application').hidden=false;
+  window.iclrExplorer={data,state,getAbstract,get selected(){return selected},get cacheSize(){return shardCache.size}};
+ }catch(e){$('loading').hidden=true;fail(e)}
+}
+boot();
+</script></body></html>
